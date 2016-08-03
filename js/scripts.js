@@ -1,7 +1,7 @@
 createjs.Sound.alternateExtensions = ["mp3"];
  createjs.Sound.on("fileload", this.loadHandler, this);
- createjs.Sound.registerSound("../mp3/cs.mp3", "cs");
- createjs.Sound.registerSound("../mp3/cslong.mp3", "cslong");
+ createjs.Sound.registerSound("../loocs/mp3/cs.mp3", "cs");
+ createjs.Sound.registerSound("../loocs/mp3/cslong.mp3", "cslong");
  var beats = {
      "cs": {
          beats: [0, 1000, 1000, 500, 500, 500, 500, [500]],
