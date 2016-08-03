@@ -59,4 +59,4 @@ createjs.Sound.alternateExtensions = ["mp3"];
  }
  function loadHandler(event) {
      setTimeout(beginMusic, 1000);
-}
+ }
