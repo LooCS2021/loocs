@@ -1,10 +1,21 @@
 /* css stylesheet for website */
 
-body {
-background-color:##403f3f;
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+    color: #ec46b5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display:block;
 }
 .intro {
-
+background-image: url("https://uwaterloo.ca/support/sites/ca.support/files/uploads/images/bold1280by768.jpg");
+background-color:#292939;
 }
 .schoolTitle {
     font-family: 'Bungee Shade', cursive;
@@ -28,5 +39,6 @@ h3:after {
     height: 40px;
     width: 20px;
     background-color: #ec46b5;
-    animation: blink 1.2s infinite;
+    animation: flash 1.2s infinite;
 }
+
